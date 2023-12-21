@@ -1,0 +1,34 @@
+.footer {
+	margin: 0;
+	padding: 1rem 0;
+	background-color: $color-dark;
+	color: $color-white;
+	h4 {
+		color: $color-secondary;
+		margin: 0 0 1rem 0;
+		padding: 0;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			margin: 0;
+			padding: 0 0 .4rem 0;
+		}
+	}
+	p {
+		margin: 0;
+		padding: 0 0 .2rem 0;
+	}
+	.container {
+		a {
+			color: $color-white;
+			text-decoration: none;
+			&:hover {
+				color: $color-white;
+				text-decoration: underline;
+			}
+		}
+	}
+}

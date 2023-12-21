@@ -1,0 +1,31 @@
+$font-family-roboto: 'Roboto', sans-serif;
+$font-family-nunito: 'Nunito', sans-serif;
+$font-family-icon: "Font Awesome 6 Free";
+
+$color-primary: #0F172B;
+$color-secondary: #FEA116;
+$color-secondary-light: #FEAF39;
+
+$text-color-primary: #141414;
+
+$color-dark: #040404;
+
+$color-success: #25d366;
+
+$color-white: #FFF;
+
+$font-size-l: 2.5rem;
+$font-size-m: 1.6rem;
+$font-size-s: .8rem;
+
+$gris-100: #666;
+$gris-90: #7E8085;
+$gris-80: #979797;
+$gris-70: #C1C1C1;
+$gris-60: #f5f5f5;
+$gris-50: #F1F1F1;
+
+@mixin font ($color, $font-size, $font-weight: 400, $font-style: normal, $font-family: inherit) {
+    color: $color;
+    font: $font-style $font-weight $font-size $font-family;
+}
