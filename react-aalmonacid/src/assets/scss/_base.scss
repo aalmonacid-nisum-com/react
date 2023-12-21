@@ -1,0 +1,268 @@
+.text-center {
+	text-align: center;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: $font-family-roboto;
+	font-size: 16px;
+	color: $text-color-primary;
+}
+h1 {
+	font-family: $font-family-nunito;
+	font-weight: 800;
+	font-size: 54px;
+	margin: 0 0 1.5rem 0;
+	padding: 0;
+}
+h2 {
+	font-family: $font-family-nunito;
+	font-weight: 800;
+	font-size: 18px;
+}
+h3 {
+	font-family: $font-family-nunito;
+	font-weight: 800;
+}
+h4 {
+	font-family: $font-family-nunito;
+	font-weight: 800;
+}
+h5 {
+	font-family: $font-family-nunito;
+	font-weight: 800;
+}
+h6 {
+	font-family: $font-family-nunito;
+	font-weight: 800;
+}
+.title {
+	font-size: 2.5rem;
+	color: $color-primary;
+	margin: 0;
+	padding: 0;
+}
+.subtitle {
+	font-size: 1.2rem;
+	color: $color-secondary;
+}
+.text-primary {
+	color: $color-secondary;
+}
+.badge {
+	background-color: rgba(0,0,0,.6);
+	font-weight: 400;
+	border-radius: 2px 0 2px 0;
+}
+.btn-primary {
+	background-color: $color-secondary;
+	border: none;
+	transition: .2s background-color;
+	&:hover {
+		background-color: $color-secondary-light;
+	}
+}
+.btn-up {
+	background: #FFF;
+	box-shadow: 0 0 30px rgba(0, 0, 0, .4);
+	border-radius: 8px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+
+.title-font-menlo {
+    @include font ($color-primary, $font-size-l, $font-family: Menlo);
+  }
+  
+.text-size-m {
+	@include font ($color-white, $font-size-m);
+}
+
+.small-s {
+	@include font ($color-white, $font-size-s);
+}
+
+.carousel {
+	.carousel-caption {bottom: 0;
+		.text{position: relative; z-index: 2;}
+		&:before{background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)); position: absolute; width: 200%; content: ""; left: -50%; bottom: 0; height: 100%; z-index: 0;}
+		h2 {
+			text-shadow: 0.5px 0.5px #0F172B;
+			color: $color-white;
+			font-size: 3rem;
+		}
+		.text {
+			text-shadow: 1px 1px #000;
+			color: $color-white;
+			font-size: 1.2rem;
+		}
+	}
+}
+.tab-products {
+	img {
+		width: 100%;
+		max-width: 80px;
+	}
+	a{
+		color: inherit;
+		text-decoration: none;
+	}
+	.price {
+		color: $color-secondary;
+		font-size: 1rem;
+	}
+	.tab-pane {
+		h3 {
+			font-size: 1.1rem;
+		}
+		.text {
+			color: $gris-100;
+		}
+	}
+	.nav-pills {
+		li {
+			padding: .6rem;
+		}
+		h3 {
+			font-size: 1rem;
+			margin: 0 .4rem;
+			font-weight: 600;
+		}
+		a {
+			color: $color-primary;
+			text-decoration: none;
+		}
+	}
+}
+.home-pilares {
+	box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+	transition: .4s;
+	i {
+		color: $color-secondary;
+	}
+	&:hover {
+		background-color: $color-secondary;
+		color: $color-white;
+		i {
+			color: $color-white;
+		}
+	}
+}
+.formulario {
+	margin: 0 0 1rem 0;
+	.row-form {
+		width: 98%;
+		margin-bottom: .5rem;
+	}
+	.form-control {
+		background-color: $gris-60;
+		border: 1px solid #979797;
+		height: 40px;
+		width: 100%;
+		padding: .5rem;
+	}
+	textarea.form-control {
+		width: 100%;
+		height: 185px;
+		resize: none;
+	}
+	.boton {
+		text-align: right;
+	}
+}
+.menu-content {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			border-bottom: 1px solid #f5f5f5;
+			padding: .5rem 0;
+			position: relative;
+			&:before {
+				font-family: $font-family-icon;
+				font-weight: 900;
+				content: "\f0da";
+				position: absolute;
+				left: 0;
+				top: 5px;
+			}
+			a {
+				color: $color-dark;
+				text-decoration: none;
+				display: block;
+				padding: 0 0 0 20px;
+				&:hover {
+					color: $gris-70;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+.listado-productos {
+	.card {
+		a {
+			&:not(.btn) {
+				text-decoration: none;
+				color: inherit;
+			}
+		}
+		p {
+			margin: 0;
+			padding: 0;
+		}
+	}
+}
+.products-details {
+	.details {
+		p {
+			margin: 0 0 1rem 0;
+		}
+		.title {
+			font-size: 1.2rem;
+			margin: 0 0 .4rem 0;
+		}
+		.price {
+			color: $color-secondary;
+			margin-bottom: .5rem;
+			font-weight: 900;
+			font-size: 1.3rem;
+		}
+	}
+}
+.paginador {
+	margin: 0 auto 2rem auto;
+	text-align: center;
+	font-size: .9rem;
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			display: inline-block;
+			margin: 0 .2rem;
+			padding: 0;
+			a {
+				color: $gris-90;
+				border: 1px solid #7E8085;
+				border-radius: 100px;
+				height: 25px;
+				width: 25px;
+				text-decoration: none;
+				display: block;
+				line-height: 25px;
+				&:hover {
+					color: #000;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

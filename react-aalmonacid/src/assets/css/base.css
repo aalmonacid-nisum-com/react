@@ -1,0 +1,321 @@
+.top-bar {
+  background-color: #0F172B;
+  color: #F1F1F1;
+  padding: .5rem 0;
+  font-size: .9rem;
+  border-bottom: 1px solid #f5f5f5; }
+  .top-bar a {
+    color: inherit;
+    text-decoration: none; }
+  .top-bar .fa-whatsapp {
+    color: #25d366; }
+  .top-bar .rrss {
+    font-size: 1.3rem; }
+    .top-bar .rrss .fa-brands {
+      margin-left: .5rem; }
+
+.header .bg-header {
+  background-color: #040404; }
+
+.nav-secondary {
+  text-align: center;
+  font-size: .9rem; }
+  .nav-secondary a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55); }
+    .nav-secondary a:hover {
+      color: #F1F1F1; }
+  .nav-secondary .fa-solid {
+    margin: 0 .4rem; }
+
+.text-center {
+  text-align: center; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #141414; }
+
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 54px;
+  margin: 0 0 1.5rem 0;
+  padding: 0; }
+
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 18px; }
+
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800; }
+
+h4 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800; }
+
+h5 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800; }
+
+h6 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800; }
+
+.title {
+  font-size: 2.5rem;
+  color: #0F172B;
+  margin: 0;
+  padding: 0; }
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #FEA116; }
+
+.text-primary {
+  color: #FEA116; }
+
+.badge {
+  background-color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  border-radius: 2px 0 2px 0; }
+
+.btn-primary {
+  background-color: #FEA116;
+  border: none;
+  transition: .2s background-color; }
+  .btn-primary:hover {
+    background-color: #FEAF39; }
+
+.btn-up {
+  background: #FFF;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px; }
+
+.title-font-menlo {
+  color: #0F172B;
+  font: normal 400 2.5rem Menlo; }
+
+.text-size-m {
+  color: #FFF;
+  font: normal 400 1.6rem inherit; }
+
+.small-s {
+  color: #FFF;
+  font: normal 400 0.8rem inherit; }
+
+.carousel .carousel-caption {
+  bottom: 0; }
+  .carousel .carousel-caption .text {
+    position: relative;
+    z-index: 2; }
+  .carousel .carousel-caption:before {
+    background: linear-gradient(to top, black, rgba(0, 0, 0, 0));
+    position: absolute;
+    width: 200%;
+    content: "";
+    left: -50%;
+    bottom: 0;
+    height: 100%;
+    z-index: 0; }
+  .carousel .carousel-caption h2 {
+    text-shadow: 0.5px 0.5px #0F172B;
+    color: #FFF;
+    font-size: 3rem; }
+  .carousel .carousel-caption .text {
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    font-size: 1.2rem; }
+
+.tab-products img {
+  width: 100%;
+  max-width: 80px; }
+.tab-products a {
+  color: inherit;
+  text-decoration: none; }
+.tab-products .price {
+  color: #FEA116;
+  font-size: 1rem; }
+.tab-products .tab-pane h3 {
+  font-size: 1.1rem; }
+.tab-products .tab-pane .text {
+  color: #666; }
+.tab-products .nav-pills li {
+  padding: .6rem; }
+.tab-products .nav-pills h3 {
+  font-size: 1rem;
+  margin: 0 .4rem;
+  font-weight: 600; }
+.tab-products .nav-pills a {
+  color: #0F172B;
+  text-decoration: none; }
+
+.home-pilares {
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+  transition: .4s; }
+  .home-pilares i {
+    color: #FEA116; }
+  .home-pilares:hover {
+    background-color: #FEA116;
+    color: #FFF; }
+    .home-pilares:hover i {
+      color: #FFF; }
+
+.formulario {
+  margin: 0 0 1rem 0; }
+  .formulario .row-form {
+    width: 98%;
+    margin-bottom: .5rem; }
+  .formulario .form-control {
+    background-color: #f5f5f5;
+    border: 1px solid #979797;
+    height: 40px;
+    width: 100%;
+    padding: .5rem; }
+  .formulario textarea.form-control {
+    width: 100%;
+    height: 185px;
+    resize: none; }
+  .formulario .boton {
+    text-align: right; }
+
+.menu-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .menu-content ul li {
+    border-bottom: 1px solid #f5f5f5;
+    padding: .5rem 0;
+    position: relative; }
+    .menu-content ul li:before {
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      content: "\f0da";
+      position: absolute;
+      left: 0;
+      top: 5px; }
+    .menu-content ul li a {
+      color: #040404;
+      text-decoration: none;
+      display: block;
+      padding: 0 0 0 20px; }
+      .menu-content ul li a:hover {
+        color: #C1C1C1;
+        text-decoration: none; }
+
+.listado-productos .card a:not(.btn) {
+  text-decoration: none;
+  color: inherit; }
+.listado-productos .card p {
+  margin: 0;
+  padding: 0; }
+
+.products-details .details p {
+  margin: 0 0 1rem 0; }
+.products-details .details .title {
+  font-size: 1.2rem;
+  margin: 0 0 .4rem 0; }
+.products-details .details .price {
+  color: #FEA116;
+  margin-bottom: .5rem;
+  font-weight: 900;
+  font-size: 1.3rem; }
+
+.paginador {
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  font-size: .9rem; }
+  .paginador ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .paginador ul li {
+      display: inline-block;
+      margin: 0 .2rem;
+      padding: 0; }
+      .paginador ul li a {
+        color: #7E8085;
+        border: 1px solid #7E8085;
+        border-radius: 100px;
+        height: 25px;
+        width: 25px;
+        text-decoration: none;
+        display: block;
+        line-height: 25px; }
+        .paginador ul li a:hover {
+          color: #000;
+          text-decoration: none; }
+
+.footer {
+  margin: 0;
+  padding: 1rem 0;
+  background-color: #040404;
+  color: #FFF; }
+  .footer h4 {
+    color: #FEA116;
+    margin: 0 0 1rem 0;
+    padding: 0; }
+  .footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .footer ul li {
+      margin: 0;
+      padding: 0 0 .4rem 0; }
+  .footer p {
+    margin: 0;
+    padding: 0 0 .2rem 0; }
+  .footer .container a {
+    color: #FFF;
+    text-decoration: none; }
+    .footer .container a:hover {
+      color: #FFF;
+      text-decoration: underline; }
+
+@media (max-width: 766px) {
+  .logo {
+    float: none;
+    margin-bottom: 1rem; }
+
+  .nav {
+    float: none;
+    clear: both;
+    width: 100%; }
+
+  .nav ul {
+    text-align: center; }
+
+  .footer h4 {
+    margin-top: 1rem;
+    margin-bottom: 0; }
+
+  .carousel img {
+    height: 250px; }
+  .carousel .carousel-caption h2 {
+    font-size: 1rem; }
+  .carousel .carousel-caption .text {
+    font-size: 15px; }
+  .carousel .carousel-caption .btn {
+    font-size: 14px; }
+
+  .col-5 {
+    width: 100%; }
+
+  .col-3 {
+    width: 100%; }
+
+  .col-2 {
+    width: 100%; } }
+
+/*# sourceMappingURL=base.css.map */

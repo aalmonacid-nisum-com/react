@@ -1,0 +1,135 @@
+{
+    "productosPromociones": [
+      {
+        "imagen": "images/fotos/ostras.jpeg",
+        "titulo": "Pack 25 Ostras medianas",
+        "precio": "$10.990",
+        "detalle": "Ostras medianas, pack de 25 unidades en bandejas.",
+        "enlace": "pages/productos-detalle.html"
+      },
+      {
+        "imagen": "images/fotos/suspirolimeno.jpeg",
+        "titulo": "Postre Suspiro Limeño",
+        "precio": "$3.290",
+        "detalle": "El suspiro de limeña es un postre muy típico peruano.",
+        "enlace": "pages/productos-detalle.html"
+      },
+      {
+        "imagen": "images/fotos/erizos.jpeg",
+        "titulo": "Erizos varios tamaños",
+        "precio": "$22.000",
+        "detalle": "Erizo pote 200 g y la mejor variedad y calidad de productos.",
+        "enlace": "pages/productos-detalle.html"
+      },
+      {
+        "imagen": "images/fotos/ostras.jpeg",
+        "titulo": "Pack 25 Ostras medianas",
+        "precio": "$10.990",
+        "detalle": "Ostras medianas, pack de 25 unidades en bandejas.",
+        "enlace": "pages/productos-detalle.html"
+      },
+      {
+        "imagen": "images/fotos/locos.jpeg",
+        "titulo": "Locos Cocidos congelados",
+        "precio": "$33.000",
+        "detalle": "Locos cocidos congelados tamaño a elección 6 y 12 unidades.",
+        "enlace": "pages/productos-detalle.html"
+      },
+      {
+        "imagen": "images/fotos/ostras.jpeg",
+        "titulo": "Pack 25 Ostras medianas",
+        "precio": "$10.990",
+        "detalle": "Ostras medianas, pack de 25 unidades en bandejas.",
+        "enlace": "pages/productos-detalle.html"
+      }
+    ],
+    "productosCongelados": [
+      {
+        "imagen": "images/fotos/erizos.jpeg",
+        "titulo": "Erizos varios tamaños",
+        "precio": "$22.000",
+        "detalle": "Erizo pote 200 g y la mejor variedad y calidad de productos.",
+        "enlace": "pages/productos-detalle.html"
+      },
+      {
+        "imagen": "images/fotos/machas.jpeg",
+        "titulo": "Machas parmesanas 12 unidades",
+        "precio": "$11.000",
+        "detalle": "Bandeja de machas parmesanas de 12 unidades, medianas, selladas al vacío.",
+        "enlace": "pages/productos-detalle.html"
+      },
+      {
+        "imagen": "images/fotos/ostras.jpeg",
+        "titulo": "Pack 25 Ostras medianas",
+        "precio": "$10.990",
+        "detalle": "Ostras medianas, pack de 25 unidades en bandejas.",
+        "enlace": "pages/productos-detalle.html"
+      },
+      {
+        "imagen": "images/fotos/erizos.jpeg",
+        "titulo": "Erizos varios tamaños",
+        "precio": "$22.000",
+        "detalle": "Erizo pote 200 g y la mejor variedad y calidad de productos.",
+        "enlace": "pages/productos-detalle.html"
+      },
+      {
+        "imagen": "images/fotos/locos.jpeg",
+        "titulo": "Locos Cocidos congelados",
+        "precio": "$33.000",
+        "detalle": "Locos cocidos congelados tamaño a elección 6 y 12 unidades.",
+        "enlace": "pages/productos-detalle.html"
+      },
+      {
+        "imagen": "images/fotos/ostras.jpeg",
+        "titulo": "Pack 25 Ostras medianas",
+        "precio": "$10.990",
+        "detalle": "Ostras medianas, pack de 25 unidades en bandejas.",
+        "enlace": "pages/productos-detalle.html"
+      }
+    ],
+    "productosMariscos": [
+      {
+        "imagen": "images/fotos/machas.jpeg",
+        "titulo": "Machas parmesanas 12 unidades",
+        "precio": "$11.000",
+        "detalle": "Bandeja de machas parmesanas de 12 unidades, medianas, selladas al vacío.",
+        "enlace": "pages/productos-detalle.html"
+      },
+      {
+        "imagen": "images/fotos/ostras.jpeg",
+        "titulo": "Pack 25 Ostras medianas",
+        "precio": "$10.990",
+        "detalle": "Ostras medianas, pack de 25 unidades en bandejas.",
+        "enlace": "pages/productos-detalle.html"
+      },
+      {
+        "imagen": "images/fotos/erizos.jpeg",
+        "titulo": "Erizos varios tamaños",
+        "precio": "$22.000",
+        "detalle": "Erizo pote 200 g y la mejor variedad y calidad de productos.",
+        "enlace": "pages/productos-detalle.html"
+      },
+      {
+        "imagen": "images/fotos/locos.jpeg",
+        "titulo": "Locos Cocidos congelados",
+        "precio": "$33.000",
+        "detalle": "Locos cocidos congelados tamaño a elección 6 y 12 unidades.",
+        "enlace": "pages/productos-detalle.html"
+      },
+      {
+        "imagen": "images/fotos/locos.jpeg",
+        "titulo": "Locos Cocidos congelados",
+        "precio": "$33.000",
+        "detalle": "Locos cocidos congelados tamaño a elección 6 y 12 unidades.",
+        "enlace": "pages/productos-detalle.html"
+      },
+      {
+        "imagen": "images/fotos/ostras.jpeg",
+        "titulo": "Pack 25 Ostras medianas",
+        "precio": "$10.990",
+        "detalle": "Ostras medianas, pack de 25 unidades en bandejas.",
+        "enlace": "pages/productos-detalle.html"
+      }
+    ]
+  }
+  

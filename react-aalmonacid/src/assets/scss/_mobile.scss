@@ -1,0 +1,19 @@
+@media (max-width: 766px){
+    .logo{float: none; margin-bottom: 1rem;}
+    .nav{float: none; clear: both; width: 100%;}
+    .nav ul{text-align: center;}
+    .footer h4{margin-top: 1rem; margin-bottom: 0;}
+
+    .carousel{
+        img{height: 250px;}
+        .carousel-caption {
+            h2{font-size: 1rem;}
+            .text{font-size: 15px;}
+            .btn{font-size: 14px;}
+        }
+    }
+
+    .col-5{width: 100%;}
+    .col-3{width: 100%;}
+    .col-2{width: 100%;}  
+}
