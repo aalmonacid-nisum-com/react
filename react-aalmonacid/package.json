@@ -2,6 +2,7 @@
   "name": "react-aalmonacid",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://aalmonacid-nisum-com.github.io/react/react-aalmonacid/",
   "type": "module",
   "scripts": {
     "dev": "vite",
